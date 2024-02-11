@@ -9,9 +9,14 @@ TRONOMEGA is an innovative project that achieved 2nd place at the University of 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### Software required:
+1. Arduino IDE
+2. Python
 
-What things you need to install the software and how to install them
+
+## Have a look:
+### (https://youtu.be/39BDuqv4hR4?si=E46w9X6PYa7aqrYl)
+
+
 
