@@ -16,7 +16,8 @@ TRONOMEGA is an innovative project that achieved 2nd place at the University of 
 
 
 ## Have a look:
-### [Video1:](https://youtu.be/39BDuqv4hR4?si=E46w9X6PYa7aqrYl)
+### [Video 1](https://youtu.be/39BDuqv4hR4?si=E46w9X6PYa7aqrYl)
+### [Video 2](https://youtu.be/mfmG8wr3OjY?si=IdG5CS52OVwlacDw)
 
 
 
