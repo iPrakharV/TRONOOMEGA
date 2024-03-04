@@ -5,20 +5,15 @@ def main():
     cv2.namedWindow("Live Feed")
     
     cap = cv2.VideoCapture(0)
-    cap.set(3,300)
-    cap.set(4,200)
     
     
-    if cap.isOpened():
-        ret, frame = cap.read()
-        print(ret)
-        print(frame)
-    else:
-        ret=False
+   
+       
         
-    while ret:
-        ret, frame=cap.read()
-        cv2.imshow(windowName,frame)
+    while True:
+        r, frame=cap.read()
+        gray=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
+        cv2.imshow(windowName,gray)
         if cv2.waitKey(1) == 27:
             break
         
