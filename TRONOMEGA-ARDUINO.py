@@ -1,16 +1,17 @@
-import serial, time
+#import serial, time
 import cv2
 import numpy as np
 import math
-arduino = serial.Serial('COM1' ,115200 , timeout=.1)
-time.sleep(1)
-cap = cv2.VideoCapture(0)
+#arduino = serial.Serial('COM3' ,9600)
+cap = cv2.VideoCapture(1)
+x1=0
+x2=0
 while(True):
-    x1=0
+    #x1=0
     c2=0
     sum2=0
     sum1=0
-    x2=0
+    #x2=0
     c1=0
     ret, frame = cap.read()
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -36,19 +37,21 @@ while(True):
     cv2.line(finallimg,(x1,100),(x2,100),(255,0,0),2)
     cv2.line(finallimg,(480,0),(480,480),(0,0,255),2)
     x3=int((x2-x1)/2)
-    left=-15
-    right=+15
+    left=158-5
+    right=158+5
     cv2.circle(finallimg,(x3,100),5,(0,0,255),-1)
     if(x3>right):
-        arduino.write(1)
+        #arduino.write('c'.encode())
         #RIGHT
+        print('right')
     elif(x3<left):
-        arduino.right(2)
+        #arduino.write('b'.encode())
         #LEFT
+        print('left')
     else :
-        arduino.write(3)
+        #arduino.write('a'.encode())
         #FORWARD
-    
+        print('fuckward')    
     cv2.imshow('hyg' , finallimg)
     cv2.imshow('hyg1' , cannyimg)
     if cv2.waitKey(100) & 0xFF == ord('e'):
