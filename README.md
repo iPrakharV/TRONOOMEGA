@@ -4,7 +4,7 @@
 
 TRONOMEGA transforms a high-speed RC racing car into an autonomous robot capable of real-time image processing and path detection. Utilizing a robust hardware setup including a modified chassis, high-performance motors, and an Intel NUC Mini PC, alongside a sophisticated software architecture built on Python and OpenCV, this robot demonstrates advanced capabilities in autonomous navigation and control.
 
-## Hardware
+## Hardware:
 
 - **Chassis**: Customized from a 2.4 GHz RC Racing Car, equipped with adjustable rods for camera mounting.
 - **Motors**: Includes a 1000 rpm brushed motor for wheel control and a servo motor for steering.
