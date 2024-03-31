@@ -13,7 +13,7 @@ TRONOMEGA transforms a high-speed RC racing car into an autonomous robot capable
 - **Power**: Dual power systems featuring a 50000 mAh power bank for the Mini PC and additional batteries for motor and peripheral components.
 - **Communication**: HC-05 Bluetooth Module for wireless control and data transmission.
 
-## Software
+## Software:
 
 - **Main Programming**: Developed in Python, leveraging the OpenCV library for image processing and path detection.
 - **Image Processing**: Utilizes dual webcams for real-time image acquisition, employing techniques such as greyscale conversion, blurring, edge detection (Canny), and color thresholding for navigation and control.
