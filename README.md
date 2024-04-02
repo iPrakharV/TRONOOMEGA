@@ -19,7 +19,7 @@ TRONOMEGA transforms a high-speed RC racing car into an autonomous robot capable
 - **Image Processing**: Utilizes dual webcams for real-time image acquisition, employing techniques such as greyscale conversion, blurring, edge detection (Canny), and color thresholding for navigation and control.
 - **Control Algorithm**: Incorporates PID (Proportional, Integral, Derivative) control for precise steering and speed regulation, enabling the robot to navigate complex courses with high accuracy.
 
-## Research and Development
+## Research and Development:
 
 The project involved extensive R&D, particularly in optimizing the Python-based control algorithm. The implementation of PID control significantly enhanced the robot's steering capabilities, allowing for sharp turns and optimal speed control.
 
